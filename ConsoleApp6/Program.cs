@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace QuickPulseConsoleApp
 {
@@ -6,6 +7,8 @@ namespace QuickPulseConsoleApp
     {
         static void Main(string[] args)
         {
+
         }
+
     }
 }

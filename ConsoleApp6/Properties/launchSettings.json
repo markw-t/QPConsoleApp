@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleApp6": {
+      "commandName": "Project",
+      "commandLineArgs": "Alpha Beta Delta Gamma Badword Epsilon"
+    }
+  }
+}
