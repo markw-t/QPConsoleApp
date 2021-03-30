@@ -30,5 +30,5 @@ static void Main(string[] args)
 
     Console.ForegroundColor = ConsoleColor.Red;
     Console.BackgroundColor = ConsoleColor.Green;
-    Console.WriteLine(sb);
+    Console.WriteLine(sb.ToString());
 }
