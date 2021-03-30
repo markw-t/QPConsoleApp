@@ -1,0 +1,34 @@
+Exercise 1 code:
+****************
+
+using System.Text
+
+static void Main(string[] args)
+{
+    StringBuilder sb = new StringBuilder();
+    foreach(string s in args)
+    {
+        sb.AppendLine(s);
+    }
+
+    Console.WriteLine(sb.ToString());
+}
+
+Exercise 2 & 3 code:
+********************
+
+using System.Text
+
+static void Main(string[] args)
+{
+    StringBuilder sb = new StringBuilder();
+    foreach(string s in args)
+    {
+        sb.Append(s);
+        sb.Append(",");
+    }
+
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.BackgroundColor = ConsoleColor.Green;
+    Console.WriteLine(sb);
+}
